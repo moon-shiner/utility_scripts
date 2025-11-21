@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Secrets (never commit API keys, passwords, etc.)
+*.key
+*.pem
+*.crt
+*.env
+
+# Generated configs (if you regenerate them every time)
+output/
+configs/generated/
+
+*.egg-info/
